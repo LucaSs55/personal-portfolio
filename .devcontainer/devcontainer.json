@@ -1,0 +1,37 @@
+{
+  "name": "Next.js Portfolio Dev",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:20-bookworm",
+
+  "forwardPorts": [3001],
+  "portsAttributes": {
+    "3000": {
+      "label": "Next.js App",
+      "onAutoForward": "openBrowser"
+    }
+  },
+
+  "postCreateCommand": "npm install",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "christian-kohler.path-intellisense",
+        "ms-vscode.vscode-typescript-next",
+        "formulahendry.auto-rename-tag"
+      ],
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "explicit"
+        },
+        "typescript.preferences.importModuleSpecifier": "relative"
+      }
+    }
+  },
+
+  "remoteUser": "node"
+}
