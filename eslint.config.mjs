@@ -12,7 +12,7 @@ const eslintConfig = defineConfig([
   {
     ignores: [".next/**", "out/**", "build/**", "next-env.d.ts"],
   },
-  ...compat.extends("next/core-web-vitals", "next/typescript"),
+  ...compat.extends("next/core-web-vitals", "next/typescript", "prettier"),
   {
     rules: {
       "no-unused-vars": "warn",
