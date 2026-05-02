@@ -14,10 +14,10 @@ export function Footer() {
               Construindo sistemas duradouros.
             </p>
             <a
-              href="mailto:seu@email.com"
+              href="lucassantos2018d@gmail.com"
               className="text-xl md:text-2xl font-display border-b border-platinum pb-1 hover:text-kinetic hover:border-kinetic transition-colors text-platinum"
             >
-              seu@email.com
+              lucassantos2018d@gmail.com
             </a>
           </div>
           <div className="grid grid-cols-2 gap-x-16 md:gap-x-24 gap-y-10">
@@ -28,7 +28,7 @@ export function Footer() {
               <ul className="space-y-2 text-sm font-medium text-platinum">
                 <li>
                   <Link
-                    href="https://linkedin.com/in/seu-perfil"
+                    href="https://www.linkedin.com/in/lucas-santos-do-nascimento-/"
                     target="_blank"
                     className="hover:text-kinetic transition-colors"
                   >
@@ -37,7 +37,7 @@ export function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="https://github.com/seu-usuario"
+                    href="https://github.com/LucaSs55"
                     target="_blank"
                     className="hover:text-kinetic transition-colors"
                   >
@@ -46,11 +46,11 @@ export function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="https://twitter.com/seu-usuario"
+                    href="https://www.instagram.com/lucass.s25_?igsh=ZzA4YTZkNGQya2Qz"
                     target="_blank"
                     className="hover:text-kinetic transition-colors"
                   >
-                    TWITTER
+                    INSTAGRAM
                   </Link>
                 </li>
               </ul>
@@ -67,7 +67,7 @@ export function Footer() {
         </div>
       </div>
       <footer className="py-10 border-t border-steel text-center text-[10px] tracking-[0.4em] text-mercury uppercase">
-        © 2026 — Construído com Next.js & Tailwind
+        © 2026 — Construído com Next.js & Tailwind | Deploy feito na Vercel
       </footer>
     </section>
   );
