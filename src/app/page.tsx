@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Hero } from "../components/hero/Hero";
-import About from "./about/page";
+import { About } from "./about/page";
 import { Footer } from "@/components/footer/Footer";
 import { Stack } from "./stacks/page";
 import { Projects } from "./projects/page";
