@@ -93,7 +93,7 @@ export const translations: Record<Language, TranslationKeys> = {
       groups: [
         {
           title: "Infraestrutura",
-          tags: ["CONTAINERS", "ORQUESTRAÇÃO", "IAC", "CLOUD"],
+          tags: ["CONTAINERS", "ORQUESTRAÇÃO LOCAL", "CI/CD", "DEPLOY/HOSTING"],
         },
         { title: "Backend", tags: ["RUNTIME", "FRAMEWORK", "DADOS", "CACHE"] },
         { title: "Frontend", tags: ["FRAMEWORK", "UI", "LINGUAGEM", "ESTILO"] },
@@ -188,7 +188,12 @@ export const translations: Record<Language, TranslationKeys> = {
       groups: [
         {
           title: "Infrastructure",
-          tags: ["CONTAINERS", "ORCHESTRATION", "IAC", "CLOUD"],
+          tags: [
+            "CONTAINERS",
+            "LOCAL ORCHESTRATION",
+            "CI/CD",
+            "DEPLOY/HOSTING",
+          ],
         },
         { title: "Backend", tags: ["RUNTIME", "FRAMEWORK", "DATA", "CACHE"] },
         { title: "Frontend", tags: ["FRAMEWORK", "UI", "LANGUAGE", "STYLING"] },
