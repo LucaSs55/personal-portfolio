@@ -104,28 +104,16 @@ export const translations: Record<Language, TranslationKeys> = {
       title: "Projetos em destaque",
       items: [
         {
-          title: "Plataforma SaaS Multi-tenant",
+          title: "Sistema de Matrículas",
           description:
-            "Aplicação fullstack com autenticação, billing e dashboard analítico em tempo real. Arquitetura modular escalável para múltiplos clientes.",
-          status: "PRODUÇÃO",
+            "Aplicação fullstack com autenticação JWT e Refresh Token http-only, Esteira CI/CD construída com Github Actions, Docker para isolamento e organização do ambiente de desenvolvimento e redis para cache de dados.",
+          status: "EM DESENVOLVIMENTO",
         },
         {
-          title: "Pipeline CI/CD Automatizado",
+          title: "Sistema de Agendamento de Consultas",
           description:
-            "Esteira de deploy completa com testes, build, análise estática e rollout progressivo em Kubernetes usando GitOps.",
-          status: "OPEN SOURCE",
-        },
-        {
-          title: "API de Processamento de Eventos",
-          description:
-            "Backend de alta concorrência para ingestão de eventos com filas distribuídas e persistência otimizada para séries temporais.",
-          status: "DEPLOYADO",
-        },
-        {
-          title: "Dashboard de Observabilidade",
-          description:
-            "Painel unificado com métricas, logs e traces distribuídos. Alertas inteligentes e visualizações personalizáveis.",
-          status: "INTERNO",
+            "Sistema construído utilizando Java e Springboot utilizando Hibernate para persistência de dados, RabbitMQ para processamento assíncrono e mensageria além de uma esteira CI/CD automatizada com Github Actions.",
+          status: "EM DESENVOLVIMENTO",
         },
       ],
     },
@@ -204,28 +192,16 @@ export const translations: Record<Language, TranslationKeys> = {
       title: "Featured projects",
       items: [
         {
-          title: "Multi-tenant SaaS Platform",
+          title: "Enrollment System",
           description:
-            "Fullstack application with authentication, billing and real-time analytics dashboard. Scalable modular architecture for multiple clients.",
-          status: "PRODUCTION",
+            "Full-stack application with JWT authentication and HTTP-only Refresh Token, CI/CD pipeline built with GitHub Actions, Docker for isolating and organizing the development environment, and Redis for data caching.",
+          status: "DEVELOPING",
         },
         {
-          title: "Automated CI/CD Pipeline",
+          title: "Appointment Scheduling System",
           description:
-            "Full deploy pipeline with tests, build, static analysis and progressive rollout on Kubernetes using GitOps.",
-          status: "OPEN SOURCE",
-        },
-        {
-          title: "Event Processing API",
-          description:
-            "High-concurrency backend for event ingestion with distributed queues and storage optimized for time series.",
-          status: "DEPLOYED",
-        },
-        {
-          title: "Observability Dashboard",
-          description:
-            "Unified panel with metrics, logs and distributed traces. Smart alerts and customizable visualizations.",
-          status: "INTERNAL",
+            "System built using Java and Spring Boot, utilizing Hibernate for data persistence, RabbitMQ for asynchronous processing and messaging, and an automated CI/CD pipeline with GitHub Actions.",
+          status: "DEVELOPING",
         },
       ],
     },
