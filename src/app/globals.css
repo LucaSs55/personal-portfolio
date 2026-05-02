@@ -31,6 +31,7 @@
   * {
     border-color: var(--color-border);
   }
+
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
@@ -38,9 +39,36 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+  .light {
+    --color-background: hsl(0 0% 98%);
+    --color-foreground: hsl(240 6% 10%);
+    --color-card: hsl(0 0% 94%);
+    --color-card-foreground: hsl(240 6% 10%);
+    --color-primary: hsl(240 6% 10%);
+    --color-primary-foreground: hsl(0 0% 98%);
+    --color-secondary: hsl(240 5% 90%);
+    --color-secondary-foreground: hsl(240 6% 10%);
+    --color-muted: hsl(240 5% 90%);
+    --color-muted-foreground: hsl(240 4% 40%);
+    --color-accent: hsl(46 65% 52%);
+    --color-accent-foreground: hsl(240 6% 10%);
+    --color-destructive: hsl(0 62% 50%);
+    --color-border: hsl(240 5% 84%);
+    --color-input: hsl(240 5% 84%);
+    --color-ring: hsl(46 65% 52%);
+
+    --color-steel: hsl(240 5% 84%);
+    --color-platinum: hsl(240 6% 10%);
+    --color-mercury: hsl(240 4% 40%);
+    --color-obsidian: hsl(0 0% 98%);
+    --color-kinetic: hsl(46 65% 52%);
+  }
+
   .font-display {
     font-family: var(--font-space-grotesk), sans-serif;
   }
+
   ::selection {
     background-color: color-mix(in srgb, var(--color-accent) 30%, transparent);
     color: var(--color-foreground);
