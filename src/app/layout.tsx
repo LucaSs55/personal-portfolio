@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/header/Header";
-import { Footer } from "../components/footer/Footer";
+import { Providers } from "@/components/providers/Providers";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -26,13 +26,15 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="pt-BR"
       className={`${inter.variable} ${spaceGrotesk.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col grid-pattern">
-        <Header />
-        {children}
-        <Footer></Footer>
+        <Providers>
+          <Header />
+          {children}
+        </Providers>
       </body>
     </html>
   );

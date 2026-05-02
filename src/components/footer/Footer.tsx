@@ -1,20 +1,24 @@
+"use client";
+
 import Link from "next/link";
+import { useLanguage } from "@/context/LanguageContext";
 
 export function Footer() {
+  const { t } = useLanguage();
+
   return (
     <section className="max-w-7xl mx-auto px-6 md:px-8">
       <div className="border-t border-steel pt-16 md:pt-24 pb-16 md:pb-24">
         <div className="flex flex-col md:flex-row justify-between items-start gap-12 md:gap-16">
           <div className="max-w-md">
             <h2 className="font-display text-4xl md:text-5xl mb-6 md:mb-8 tracking-tight text-platinum">
-              Vamos integrar.
+              {t.contact.title}
             </h2>
             <p className="text-mercury leading-relaxed mb-8">
-              Aberto a oportunidades, colaborações e conversas técnicas.
-              Construindo sistemas duradouros.
+              {t.contact.description}
             </p>
             <a
-              href="lucassantos2018d@gmail.com"
+              href="mailto:lucassantos2018d@gmail.com"
               className="text-xl md:text-2xl font-display border-b border-platinum pb-1 hover:text-kinetic hover:border-kinetic transition-colors text-platinum"
             >
               lucassantos2018d@gmail.com
@@ -23,7 +27,7 @@ export function Footer() {
           <div className="grid grid-cols-2 gap-x-16 md:gap-x-24 gap-y-10">
             <div>
               <p className="text-[10px] tracking-[0.3em] uppercase text-mercury mb-4">
-                Redes
+                {t.contact.networks}
               </p>
               <ul className="space-y-2 text-sm font-medium text-platinum">
                 <li>
@@ -57,17 +61,17 @@ export function Footer() {
             </div>
             <div>
               <p className="text-[10px] tracking-[0.3em] uppercase text-mercury mb-4">
-                Localização
+                {t.contact.location}
               </p>
               <p className="text-sm font-medium text-platinum">
-                UTC-3 — BRASIL / REMOTO
+                {t.contact.locationValue}
               </p>
             </div>
           </div>
         </div>
       </div>
       <footer className="py-10 border-t border-steel text-center text-[10px] tracking-[0.4em] text-mercury uppercase">
-        © 2026 — Construído com Next.js & Tailwind | Deploy feito na Vercel
+        {t.contact.footer}
       </footer>
     </section>
   );
