@@ -3,6 +3,7 @@ import { Hero } from "../components/hero/Hero";
 import About from "./about/page";
 import { Footer } from "@/components/footer/Footer";
 import { Stack } from "./stacks/page";
+import { Projects } from "./projects/page";
 
 export default function Home() {
   return (
@@ -17,7 +18,9 @@ export default function Home() {
         <section id="stack">
           <Stack />
         </section>
-        <section id="projetos">{/* Projects component */}</section>
+        <section id="projetos">
+          <Projects />
+        </section>
         <section>
           <Footer />
         </section>
