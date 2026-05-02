@@ -50,7 +50,7 @@ export function Header() {
           onClick={() => handleClick("#inicio")}
           className="font-display font-semibold tracking-tighter text-xl text-platinum"
         >
-          LUCAS<span className="text-blue-500">.DEV</span>
+          LUCAS_SANTOS<span className="text-kinetic opacity-75">.DEV</span>
         </button>
 
         <div className="flex items-center gap-6 md:gap-10 text-xs md:text-sm font-medium text-mercury tracking-wide">
