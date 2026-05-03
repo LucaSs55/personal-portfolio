@@ -1,6 +1,7 @@
 "use client";
 
 import { useLanguage } from "@/context/LanguageContext";
+import { AnimateIn } from "../ui/AnimateIn";
 
 export function Hero() {
   const { t } = useLanguage();
@@ -25,16 +26,17 @@ export function Hero() {
             {t.hero.badge}
           </span>
         </div>
+        <AnimateIn direction="left" delay={0.25}>
+          <h1 className="font-display text-5xl md:text-7xl font-light tracking-tight text-balance leading-[1.05] mb-10 md:mb-12 text-platinum">
+            {t.hero.titlePart1}{" "}
+            <span className="text-mercury">{t.hero.titleHighlight}</span>{" "}
+            {t.hero.titlePart2}
+          </h1>
 
-        <h1 className="font-display text-5xl md:text-7xl font-light tracking-tight text-balance leading-[1.05] mb-10 md:mb-12 text-platinum">
-          {t.hero.titlePart1}{" "}
-          <span className="text-mercury">{t.hero.titleHighlight}</span>{" "}
-          {t.hero.titlePart2}
-        </h1>
-
-        <p className="text-lg md:text-xl text-mercury leading-relaxed max-w-[60ch] mb-10 md:mb-12">
-          {t.hero.subtitle}
-        </p>
+          <p className="text-lg md:text-xl text-mercury leading-relaxed max-w-[60ch] mb-10 md:mb-12">
+            {t.hero.subtitle}
+          </p>
+        </AnimateIn>
 
         <div className="flex flex-wrap gap-4 md:gap-6">
           <button
