@@ -15,8 +15,10 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "My personal portfolio",
+  title: "LUCAS_SANTOS.DEV",
+  description:
+    "My professional portfolio to highlight my career path and notable projects.",
+  icons: "/favicon-lsdev.png",
 };
 
 export default function RootLayout({
