@@ -7,7 +7,7 @@ import { AnimateIn } from "../../components/ui/AnimateIn";
 
 const profilePhoto: string | undefined = "/profile.jpeg";
 
-export function About() {
+export default function About() {
   const { t } = useLanguage();
   const experiences = t.about.experiences;
 

@@ -9,7 +9,7 @@ const itemNames = [
   ["Next.js", "React", "TypeScript", "Tailwind CSS"],
 ];
 
-export function Stack() {
+export default function Stack() {
   const { t } = useLanguage();
 
   return (

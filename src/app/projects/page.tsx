@@ -17,7 +17,7 @@ const projectMeta = [
   },
 ];
 
-export function Projects() {
+export default function Projects() {
   const { t } = useLanguage();
   const projects = t.projects.items.map((p, i) => ({
     ...p,
