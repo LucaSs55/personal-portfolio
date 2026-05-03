@@ -1,9 +1,9 @@
 import Image from "next/image";
-import { Hero } from "../components/hero/Hero";
-import { About } from "./about/page";
+import { Hero } from "@/components/hero/Hero";
 import { Footer } from "@/components/footer/Footer";
-import { Stack } from "./stacks/page";
-import { Projects } from "./projects/page";
+import About from "./about/page";
+import Stack from "./stacks/page";
+import Projects from "./projects/page";
 
 export default function Home() {
   return (
