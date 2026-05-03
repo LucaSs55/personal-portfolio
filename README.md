@@ -2,7 +2,7 @@
 
 > Portfolio profissional construído com foco em performance, arquitetura moderna e experiência de desenvolvimento reproduzível.
 
-**[🌐 Ver online](https://lucas-santos.dev)** · **[📁 Repositório](https://github.com/LucaSs55/personal-portfolio)**
+**[🌐 Ver online](lucassantos-dev.vercel.app)** · **[📁 Repositório](https://github.com/LucaSs55/personal-portfolio)**
 
 ---
 
